@@ -22,7 +22,7 @@ std::string Square::getColor() const {
     return m_color;
 }
 
-void Square:: setColor(std::string color) {
+void Square::setColor(std::string color) {
     m_color = std::move(color);
 }
 
